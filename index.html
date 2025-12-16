@@ -1,14 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-    
-    <h1>My Portfolio</h1>
-    <a href="#">Project 1 - Coffee (Café) Business Website with Ordering System</a>
-</body>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./src/css/style.css">
+		<link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@7.1.0/css/all.min.css" />
+		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<title>Jeff's Portfolio</title>
+	</head>
+
+	<body>
+
+		<div id="particles-js"></div>
+
+		<header>
+			<div class="h-wrapper">
+				<h2><a href="index.html">JVS</a></h2>
+				<nav id="nav">
+					<i class="fa-solid fa-xmark fa-xl xmark"></i>
+					<ul>
+						<li><a href="#about-me">About Me</a></li>
+						<li><a href="#work-experience">Work Experience</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<i class="fa-solid fa-bars-staggered fa-xl bars"></i>
+				<div class="d-mode-toggle">
+					<i class="fa-solid fa-moon fa-xl moon"></i>
+					<input type="checkbox" id="checkbox" checked/>
+					<label for="checkbox" class="toggle"></label>
+				</div>
+			</div>
+		</header>
+
+		<section aria-label="Banner" id="banner">
+			<div class="content-banner">
+				<div class="cb-left">
+					<h3>Hi,</h3>
+					<h1>I'm JEFF</h1>
+					<!-- <p>A driven developer who loves to code.</p> -->
+					<p>An aspiring and driven developer passionate about web development and technology</p>
+					<a href="./assets/cv/Jefferson-V-Sanico-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+				</div>
+				<div class="cb-right">
+					<img src="./src/img/computer-programmer.png" alt="Vector Man">
+				</div>
+			</div>
+			<div class="arrow-section">
+				<i class="fa-solid fa-circle-chevron-down fa-xl arrow-down"></i>
+			</div>
+		</section>
+
+		<section aria-label="About Me" id="about-me">
+			<div class="about-container">
+				<div class="ac-left">
+					<img src="./src/img/about.png" alt="My designs">
+				</div>
+				<div class="ac-right">
+					<h4>About Me</h4>
+					<div class="divider"></div>
+					<p>I’ve been interested in technology since high school. I love  and enjoy creating designs, coding, and working with software and hardware configurations.</p>
+					<p>I’m continuously exploring the digital world, trying to adapt innovative technologies, challenging my creativity and strengthening my problem-solving skills in various IT operations.</p>
+					<p>Currently, I’m focused on web development, but I’m open and looking forward to opportunities where I can contribute with my technical skills to support a team’s success.</p>
+				</div>
+			</div>
+		</section>
+
+		<section aria-label="Work Experience" id="work-experience">
+			<div class="work-container">
+				<div class="wc-left">
+					<h4>Work Experience</h4>
+					<div class="divider"></div>
+					<div class="sub-flex">
+						<div class="bullets-line">
+							<div class="bullet1"></div>
+							<div class="line1"></div>
+							<div class="bullet2"></div>
+							<div class="line2"></div>
+						</div>
+						<div class="texts">
+							<div class="job-lists">
+								<h5>MIS Staff & Programmer</h5>
+								<h6>2020-2021</h6>
+								<ul>
+									<li>Enhanced and maintained systems</li>
+									<li>Provide administrative support within IT operations and to other departments</li>
+								</ul>
+							</div>
+							<div class="job-lists">
+								<h5>Odoo ERP Fullstack Developer</h5>
+								<h6>2022-2025</h6>
+								<ul>
+									<li>Optimized and maintained Odoo systems and provided user support</li>
+									<li>Create visual designs for the company's marketing and websites</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wc-right">
+					<img src="./src/img/work-experience.png" alt="Work Experience">
+				</div>
+			</div>
+		</section>
+
+		<section aria-label="Skills" id="skills">
+			<div class="skills-container">
+				<h4>Technical Skills</h4>
+				<div class="divider"></div>
+				<div class="skills-icon">
+					<div class="icon">HTML</div>
+					<div class="icon">CSS</div>
+					<div class="icon">Javascript</div>
+					<div class="icon">Bootstrap</div>
+					<div class="icon">Odoo</div>
+					<div class="icon">PostgreSQL</div>
+					<div class="icon">Java</div>
+					<div class="icon">C#</div>
+					<div class="icon">VB.NET</div>
+					<div class="icon">Python</div>
+					<div class="icon">PHP</div>
+					<div class="icon">Git</div>
+					<div class="icon">Photoshop</div>
+					<div class="icon">Figma</div>
+					<div class="icon">Canva</div>
+					<div class="icon">Linux / SSH</div>
+				</div>
+			</div>
+		</section>
+
+		<section aria-label="Projects" id="projects">
+			<div class="projects-container">
+				<h4>Projects</h4>
+				<div class="divider"></div>
+				<h5>To be uploaded soon...</h5>
+			</div>
+		</section>
+
+		<section aria-label="Contact" id="contact">
+			<div class="contact-container">
+				<h4>Get in Touch</h4>
+				<h6>Looking forward to working with you</h6>
+				<div class="divider"></div>
+				<div class="contact-me">
+					<a href="mailto:jvalsanico@gmail.com">Contact me</a>
+				</div>
+				<div class="info">
+					<p>jvalsanico@gmail.com</p>
+					<p>+639066872431</p>
+				</div>
+			</div>
+		</section>
+
+		<section aria-label="Copyright">
+			<div class="copyright-container">
+				<p>@ 2025 Jefferson V. Sanico. All Rights Reserved</p>
+			</div>
+		</section>
+
+	</body>
+	<script src="./src/js/particles.js"></script>
+	<script src="./src/js/script.js"></script>
 </html>

@@ -897,9 +897,17 @@ nav .xmark, .h-wrapper .bars {
     .skills-container .skills-icon {
         grid-template-columns: repeat(2, auto);
     }
+
+    .wc-right img {
+        width: 270px;
+    }
 }
 
 @media (max-width: 500px) {
+    .ac-left img {
+        width: 270px;
+    }
+    
     .cb-left {
         padding-left: 2rem;
         padding-right: 2rem;

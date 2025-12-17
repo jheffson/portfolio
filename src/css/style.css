@@ -761,6 +761,66 @@ nav .xmark, .h-wrapper .bars {
     font-size: .8rem;
 }
 
+@media (max-width: 1160px) {
+    .about-container {
+        flex-direction: column;
+        padding: 7rem 6rem;
+    }
+
+    .ac-left {
+        order: 2;
+    }
+
+    .ac-right {
+        order: 1;
+    }
+
+    .ac-right .divider {
+        margin: 1rem auto 3rem;
+    }
+
+    .ac-right p:nth-child(5) {
+        margin-bottom: 3rem !important;
+    }
+
+    .work-container {
+        flex-direction: column;
+        padding: 7rem 3rem;
+    }
+    
+    .wc-left h4 {
+        text-align: center;
+    }
+
+    .wc-left .divider {
+        margin: 1rem auto 3rem;
+    }
+
+    .skills-container {
+        padding: 7rem 3rem;
+    }
+
+    .skills-icon .icon {
+        padding: 1rem 1rem;
+    }
+
+    .projects-container {
+        padding: 7rem 3rem;
+    }
+
+    .contact-container {
+        padding: 7rem 3rem;
+    }
+
+    .projects-container .divider {
+        margin: 1rem auto 3rem;
+    }
+
+    .contact-container .divider {
+        margin: 1rem auto 3rem;
+    }
+}
+
 @media (max-width: 1020px) {
     nav {
         position: fixed;
@@ -915,65 +975,5 @@ nav .xmark, .h-wrapper .bars {
 
     .work-container {
         padding: 7rem 1rem;
-    }
-}
-
-@media (max-width: 1160px) {
-    .about-container {
-        flex-direction: column;
-        padding: 7rem 6rem;
-    }
-
-    .ac-left {
-        order: 2;
-    }
-
-    .ac-right {
-        order: 1;
-    }
-
-    .ac-right .divider {
-        margin: 1rem auto 3rem;
-    }
-
-    .ac-right p:nth-child(5) {
-        margin-bottom: 3rem !important;
-    }
-
-    .work-container {
-        flex-direction: column;
-        padding: 7rem 3rem;
-    }
-    
-    .wc-left h4 {
-        text-align: center;
-    }
-
-    .wc-left .divider {
-        margin: 1rem auto 3rem;
-    }
-
-    .skills-container {
-        padding: 7rem 3rem;
-    }
-
-    .skills-icon .icon {
-        padding: 1rem 1rem;
-    }
-
-    .projects-container {
-        padding: 7rem 3rem;
-    }
-
-    .contact-container {
-        padding: 7rem 3rem;
-    }
-
-    .projects-container .divider {
-        margin: 1rem auto 3rem;
-    }
-
-    .contact-container .divider {
-        margin: 1rem auto 3rem;
     }
 }
